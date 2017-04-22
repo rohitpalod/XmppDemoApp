@@ -25,10 +25,6 @@
 		D10698941EA89410002CC24C /* XMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D10698931EA89410002CC24C /* XMPPManager.m */; };
 		D107562B1EAA81B50031929D /* AddBuddyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D107562A1EAA81B50031929D /* AddBuddyVC.m */; };
 		D107562E1EAA96110031929D /* NSString+enhancement.m in Sources */ = {isa = PBXBuildFile; fileRef = D107562D1EAA96110031929D /* NSString+enhancement.m */; };
-		D10756361EAA9E410031929D /* MyMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D10756341EAA9E410031929D /* MyMessageCell.m */; };
-		D10756371EAA9E410031929D /* MyMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10756351EAA9E410031929D /* MyMessageCell.xib */; };
-		D107563B1EAA9E570031929D /* BuddyMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D10756391EAA9E570031929D /* BuddyMessageCell.m */; };
-		D107563C1EAA9E570031929D /* BuddyMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D107563A1EAA9E570031929D /* BuddyMessageCell.xib */; };
 		D182E0D51EAB37A5006C3B42 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D182E0D41EAB37A5006C3B42 /* CustomCell.m */; };
 		D1FD7CA31EA8A394007C1BB1 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD7CA21EA8A394007C1BB1 /* Constants.m */; };
 		F377BCA8DF04FDA3A1E97740 /* Pods_XmppDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725551BD9B3F6C83C2A8DA41 /* Pods_XmppDemoApp.framework */; };
@@ -66,12 +62,6 @@
 		D107562A1EAA81B50031929D /* AddBuddyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBuddyVC.m; sourceTree = "<group>"; };
 		D107562C1EAA96110031929D /* NSString+enhancement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+enhancement.h"; sourceTree = "<group>"; };
 		D107562D1EAA96110031929D /* NSString+enhancement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+enhancement.m"; sourceTree = "<group>"; };
-		D10756331EAA9E410031929D /* MyMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMessageCell.h; sourceTree = "<group>"; };
-		D10756341EAA9E410031929D /* MyMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMessageCell.m; sourceTree = "<group>"; };
-		D10756351EAA9E410031929D /* MyMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMessageCell.xib; sourceTree = "<group>"; };
-		D10756381EAA9E570031929D /* BuddyMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuddyMessageCell.h; sourceTree = "<group>"; };
-		D10756391EAA9E570031929D /* BuddyMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuddyMessageCell.m; sourceTree = "<group>"; };
-		D107563A1EAA9E570031929D /* BuddyMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuddyMessageCell.xib; sourceTree = "<group>"; };
 		D182E0D31EAB37A5006C3B42 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		D182E0D41EAB37A5006C3B42 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		D1FD7CA11EA8A394007C1BB1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -193,12 +183,6 @@
 		D107562F1EAA99660031929D /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
-				D10756331EAA9E410031929D /* MyMessageCell.h */,
-				D10756341EAA9E410031929D /* MyMessageCell.m */,
-				D10756351EAA9E410031929D /* MyMessageCell.xib */,
-				D10756381EAA9E570031929D /* BuddyMessageCell.h */,
-				D10756391EAA9E570031929D /* BuddyMessageCell.m */,
-				D107563A1EAA9E570031929D /* BuddyMessageCell.xib */,
 				D182E0D31EAB37A5006C3B42 /* CustomCell.h */,
 				D182E0D41EAB37A5006C3B42 /* CustomCell.m */,
 			);
@@ -286,10 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D106986D1EA87AFC002CC24C /* LaunchScreen.storyboard in Resources */,
-				D10756371EAA9E410031929D /* MyMessageCell.xib in Resources */,
 				D106986A1EA87AFC002CC24C /* Assets.xcassets in Resources */,
 				D10698681EA87AFC002CC24C /* Main.storyboard in Resources */,
-				D107563C1EAA9E570031929D /* BuddyMessageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +337,8 @@
 				D1FD7CA31EA8A394007C1BB1 /* Constants.m in Sources */,
 				D107562B1EAA81B50031929D /* AddBuddyVC.m in Sources */,
 				D10698621EA87AFC002CC24C /* AppDelegate.m in Sources */,
-				D10756361EAA9E410031929D /* MyMessageCell.m in Sources */,
 				D10698831EA87EA1002CC24C /* LoginVC.m in Sources */,
 				D106985F1EA87AFC002CC24C /* main.m in Sources */,
-				D107563B1EAA9E570031929D /* BuddyMessageCell.m in Sources */,
 				D10698861EA87EBF002CC24C /* BuddyListVC.m in Sources */,
 				D182E0D51EAB37A5006C3B42 /* CustomCell.m in Sources */,
 			);
