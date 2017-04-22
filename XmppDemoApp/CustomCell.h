@@ -1,0 +1,22 @@
+//
+//  CustomCell.h
+//  XmppDemoApp
+//
+//  Created by Rohit palod on 22/04/17.
+//  Copyright © 2017 Craterzone. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface CustomCell : UITableViewCell
+ {
+    UILabel *senderAndTimeLabel;
+    UITextView *messageContentView;
+    UIImageView *bgImageView;
+}
+
+@property (nonatomic,strong) UILabel *senderAndTimeLabel;
+@property (nonatomic,strong) UITextView *messageContentView;
+@property (nonatomic,strong) UIImageView *bgImageView;
+
+@end

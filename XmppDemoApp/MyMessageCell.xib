@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="MyMessageCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyMessageCell" rowHeight="92" id="KGk-i7-Jjw" customClass="MyMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQ7-1x-599">
+                        <rect key="frame" x="75" y="0.0" width="240" height="81"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LBO-ut-67m">
+                                <rect key="frame" x="0.0" y="15" width="240" height="42"/>
+                                <color key="backgroundColor" red="1" green="0.41001796820000003" blue="0.36782842970000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5fp-jH-hqS">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="15"/>
+                                <color key="backgroundColor" red="0.84683818720000004" green="0.84683818720000004" blue="0.84683818720000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="tAd-ol-I7b"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GRg-YB-rRs">
+                                <rect key="frame" x="0.0" y="76" width="240" height="5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="BvH-Cn-X1N"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LdA-sZ-WvB">
+                                <rect key="frame" x="0.0" y="57" width="240" height="19"/>
+                                <color key="backgroundColor" red="0.84683818720000004" green="0.84683818720000004" blue="0.84683818720000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="gsr-qA-KW6"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5fp-jH-hqS" firstAttribute="leading" secondItem="aQ7-1x-599" secondAttribute="leading" id="3gJ-0a-6hb"/>
+                            <constraint firstAttribute="trailing" secondItem="GRg-YB-rRs" secondAttribute="trailing" id="5zL-VH-kXM"/>
+                            <constraint firstItem="GRg-YB-rRs" firstAttribute="top" secondItem="LdA-sZ-WvB" secondAttribute="bottom" id="8vh-rT-Huw"/>
+                            <constraint firstItem="LBO-ut-67m" firstAttribute="leading" secondItem="aQ7-1x-599" secondAttribute="leading" id="H5F-nX-54c"/>
+                            <constraint firstAttribute="trailing" secondItem="5fp-jH-hqS" secondAttribute="trailing" id="HA0-zS-dfK"/>
+                            <constraint firstAttribute="trailing" secondItem="LBO-ut-67m" secondAttribute="trailing" id="Iyf-jW-D75"/>
+                            <constraint firstAttribute="bottom" secondItem="GRg-YB-rRs" secondAttribute="bottom" id="Lvj-33-gzn"/>
+                            <constraint firstItem="5fp-jH-hqS" firstAttribute="top" secondItem="aQ7-1x-599" secondAttribute="top" id="SQR-i3-kpx"/>
+                            <constraint firstItem="LdA-sZ-WvB" firstAttribute="leading" secondItem="aQ7-1x-599" secondAttribute="leading" id="Ull-TE-0ee"/>
+                            <constraint firstItem="GRg-YB-rRs" firstAttribute="leading" secondItem="aQ7-1x-599" secondAttribute="leading" id="ZpN-1W-otq"/>
+                            <constraint firstAttribute="trailing" secondItem="LdA-sZ-WvB" secondAttribute="trailing" id="jCr-ah-YBJ"/>
+                            <constraint firstItem="LdA-sZ-WvB" firstAttribute="top" secondItem="LBO-ut-67m" secondAttribute="bottom" id="yqY-MI-K26"/>
+                            <constraint firstItem="LBO-ut-67m" firstAttribute="top" secondItem="5fp-jH-hqS" secondAttribute="bottom" id="zPw-Sk-Uqg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="aQ7-1x-599" secondAttribute="bottom" id="6Va-nT-yZD"/>
+                    <constraint firstAttribute="trailing" secondItem="aQ7-1x-599" secondAttribute="trailing" constant="5" id="DWk-rA-moM"/>
+                    <constraint firstItem="aQ7-1x-599" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="75" id="PiZ-ZC-X6Z"/>
+                    <constraint firstItem="aQ7-1x-599" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xIC-ff-vp2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellView" destination="aQ7-1x-599" id="9Bb-y5-L6q"/>
+                <outlet property="messageField" destination="LBO-ut-67m" id="S0z-iP-lUY"/>
+                <outlet property="nameField" destination="LdA-sZ-WvB" id="gRH-QM-pa5"/>
+                <outlet property="seperaterView" destination="GRg-YB-rRs" id="hsB-Hu-EIH"/>
+                <outlet property="timeField" destination="5fp-jH-hqS" id="UEt-Fj-1yu"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="50"/>
+        </tableViewCell>
+    </objects>
+</document>
